@@ -1,0 +1,11 @@
+// Programa con errores semánticos - ClaudioComp
+int contador = 0;
+int contador = 5;
+float precio = 99.99;
+bool activo = true;
+
+total = 200;
+contador = "texto";
+precio = precio + activo;
+
+int resultado = precio + "cadena";

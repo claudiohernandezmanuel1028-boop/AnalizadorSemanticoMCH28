@@ -1,0 +1,18 @@
+// Programa correcto - ClaudioComp
+int edad = 25;
+float salario = 1500.75;
+bool activo = true;
+string nombre = "Juan";
+
+edad = edad + 1;
+salario = salario * 1.1;
+
+if (activo) {
+    int bonificacion = 100;
+    salario = salario + bonificacion;
+}
+
+while (edad < 65) {
+    edad = edad + 1;
+    salario = salario + 50.0;
+}
